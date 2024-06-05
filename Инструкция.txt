@@ -1,0 +1,14 @@
+Инструкция
+
+Склонируйте репозиторий с кодом: 
+
+git clone <https://github.com/Bek-arch/FastApi-App.git>
+
+Используйте следующую команду для сборки Docker-контейнера из Dockerfile:
+
+docker build -t python-app .
+
+
+После сборки контейнера, запустите его с помощью следующей команды:
+
+docker run -p 8000:8000 python-app
